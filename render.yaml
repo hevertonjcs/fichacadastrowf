@@ -1,7 +1,6 @@
 services:
   - type: web
     name: ficha-cadastro
-    runtime: java
     buildCommand: mvn clean install
     startCommand: java -jar target/cadastro-api-1.0.0.jar
     plan: free
